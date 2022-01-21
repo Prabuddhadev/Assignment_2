@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./submitted.html" method="get">
+        <section>
+            <div>
+                <label for="s">Name</label>
+                <input required type ="text" name="name of user" placeholder="name" id="s" value=""> <br><br>
+            </div>
+            <div>
+                <label for="ss">Email Address</label>
+                <input required type ="email" name="email of user" placeholder="email" id="ss" value=""> <br><br>
+            </div>
+            <div>
+                <label for="sss">Password</label>
+                <input required type ="password" name="Password of user" placeholder="password" id="sss" value=""> <br><br>
+            </div>
+        </section>
+        <section>
+            Language <br><br>
+            <div>
+                <input required type="radio" id="1" name="Language" value="React" >
+                <label for="1">React</label><br>
+            </div>
+            <div>
+                <input required type="radio" id="2" name="Language" value="Angular" >
+                <label for="2">Angular</label><br>
+            </div>
+            <div>
+                <input required type="radio" id="3" name="Language" value="Vue">
+                <label for="3">Vue</label><br><br>
+            </div>
+        </section> 
+        <section>
+                Course <br><br>
+            <div>
+                <input required type="checkbox" id="4" name="Type" value="MERN" >
+                <label for="4">MERN</label><br>
+            </div>
+            <div>
+                <input  type="checkbox" id="5" name="Type" value="MEAN">
+                <label for="5">MEAN</label><br>
+            </div>
+            <div>
+                <input  type="checkbox" id="6" name="Type" value="MEVN">
+                <label for="6">MEVN</label><br><br>
+            </div>
+        </section>
+        <section>
+            <label for="7">Field</label><br>
+
+            <select name="Course field" id="7">
+                <option value= "Front-End"  >Front-End</option>
+                <option value= "Back-End"   >Back-End</option>
+                <option value= "Full Stack" >Full-Stack</option>
+            </select>
+        </section>
+        <br><br>
+        <section>
+            <textarea name="Random text" cols="30" rows="10"></textarea>
+        </section><br><br>
+        <section>
+            <label for="8">Phone number</label>
+            <input required type="text" name="Phone number" id="8">
+            <input type="submit">
+        </section><br>
+        <footer>
+            <h1>Tables</h1>
+            <a href="./Table.html">Click here</a>
+        </footer>
+    </form>
+</body>
+</html>
